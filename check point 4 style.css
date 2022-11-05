@@ -1,0 +1,191 @@
+
+
+#logo{
+    height: 33px;
+    width: 268px;
+    padding: 20px 0 20px 0;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    height: 70px;
+    width: 1015px;
+    margin: 0px 252px 0px 252px;
+    padding: 0px 20px 0px 20px;}
+
+.MainMenu{ 
+    display: flex;
+    height: 69.9px;
+    width: 251.65px;
+    padding: 20px 0 20px 0;
+    justify-content: space-around;
+}
+
+.MainMenuItem{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    Font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#ABABAB ;
+    height: 30px;
+    width: 77.65px;
+    padding: 0 9px 0 9px;
+    
+}
+
+ul{ 
+    list-style: none;
+}
+
+li{
+    
+    line-height: 30px;
+    color: rgb(0, 179, 155);
+
+}
+
+
+.SubMenu{
+    display: none;
+    
+}
+
+
+.MainMenuItem:hover{
+    color: rgb(0, 179, 155);
+    cursor: pointer;
+}
+
+
+.MainMenuItem:hover .SubMenu{display: block;} 
+
+
+.SubMenu{
+    position: absolute;
+    height: 220px;
+    width: 236px;
+    margin: 0 0 0 -100px;
+    padding: 10px 0 0 0;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    
+    
+}
+
+
+.SubMenuItem { 
+    font-family:sans-serif;
+    Font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color:#ABABAB ;
+    height: 21px;
+    width: 220px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+
+
+   
+}
+
+.SubMenuItem:hover {
+    background-color: #F6F8F8;
+    color: rgb(0, 179, 155);
+    
+}
+
+
+.part1{
+    margin: 33px 252px 60px 252px;
+    height: 308.8px;
+    width: 1015px;
+    padding: 0 20px 0 20px;
+
+ }
+
+
+#logoo{ 
+    margin: 0 468px 0 468px;
+
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    line-height: 44.2px;
+    margin: 34px 0 34px 0;
+    color: #00BFA5;
+
+}
+
+section{
+    display: flex;
+}
+p{  
+    font-weight: 400; 
+    height: 157.6px;
+    width: 497.5px;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747474;
+}
+
+
+#part2{
+    display: flex;
+    justify-content:center;
+    
+}
+
+.boxx{
+    height: 365px;
+    width: 331.625;
+    padding: 10px 10px 10px 10px;
+}
+
+.box{ 
+    height: 345px;
+    width: 260px;
+    padding: 32px 32px 0 32px;
+    display: block;
+    border-radius: 10px; 
+   
+   
+    
+}
+
+
+
+
+#box1 {
+    background-color: #00b39b;
+
+}
+
+#box2 { 
+    background-color:#3d83df;
+}
+
+#box3 { 
+    background-color: #1b2734;
+}
+
+#box1:hover{ background-color: #1AD1B9;}
+#box2:hover{ background-color: #3D83DF;}
+#box3:hover{ background-color: #1B2734;}
+
+.for{ 
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255,255,255);
+
+}
+
